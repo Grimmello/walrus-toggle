@@ -17,4 +17,15 @@ $(function() {
   $(".clickable5").click(function() {
     $("#paragraphtoggle").slideToggle();
   });
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+    $(".panel").removeClass("walrus-info");
+    $(".panel").addClass("walrus-info2");
+  });
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
+    $(".panel").removeClass("walrus-info2");
+  });
 });

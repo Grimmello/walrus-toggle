@@ -1,37 +1,49 @@
+body {
+  background-color: white;
+}
 #walrus-showing {
   display: none;
 }
 .panel{
   display: none;
 }
+.panel3{
+  color: black;
+}
 .clickable {
   cursor:pointer;
-  color: blue;
+  color: #7ba7c6;
 }
 .clickable:hover {
   text-decoration: underline;
 }
-.panel .walrus-info {
+.walrus-info {
+}
+.walrus-info2 {
   float:left;
   margin-left: 2%;
   border-radius: 12px;
   font-style: italic;
-  background-color: lightgray;
+  background-color: #333333;
+  color: silver;
   border: none;
   padding: 5px 5px 5px 5px;
   padding-left: 5px;
   padding-right: 5px;
 }
+.walrus-info3 {
+  background-color: black;
+}
 .clickable2 {
   cursor:pointer;
-  color: blue;
+  color: #7ba7c6;
 }
 .clickable2:hover {
   text-decoration: underline;
 }
 .clickable3 {
   cursor:pointer;
-  color: blue;
+  color: #7ba7c6;
 }
 .clickable3:hover {
   text-decoration: underline;
@@ -41,7 +53,7 @@
 }
 .clickable4 {
   cursor:pointer;
-  color: blue;
+  color: #7ba7c6;
 }
 .clickable4:hover {
   text-decoration: underline;
@@ -54,8 +66,51 @@
 }
 .clickable5 {
   cursor:pointer;
-  color: blue;
+  color: #7ba7c6;
 }
 .clickable5:hover {
   text-decoration: underline;
+}
+.btn-dark {
+  color: #fff;
+  background-color: #4f4f4f;
+  border-color: #606060;
+}
+.btn-dark:focus,
+.btn-dark.focus {
+  color: #fff;
+  background-color: #4f4f4f;
+  border-color: #255625;
+}
+.btn-dark:hover {
+  color: #fff;
+  background-color: #606060;
+  border-color: #4f4f4f;
+}
+.btn-light {
+  color: black;
+  background-color: #f4c153;
+  border-color: #606060;
+}
+.btn-light:focus,
+.btn-dark.focus {
+  color: black;
+  background-color: #f4c153;
+  border-color: #255625;
+}
+.btn-light:hover {
+  color: black;
+  background-color: #ffdd93;
+  border-color: #707070;
+}
+.light-background {
+  background-color: white;
+  color: black;
+}
+.dark-background {
+  background-color: black;
+  color:silver;
+}
+.light-link{
+  color: #8bbce0;
 }
