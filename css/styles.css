@@ -46,3 +46,16 @@
 .clickable4:hover {
   text-decoration: underline;
 }
+#randompic {
+  display: none;
+}
+#paragraphtoggle {
+  display: none;
+}
+.clickable5 {
+  cursor:pointer;
+  color: blue;
+}
+.clickable5:hover {
+  text-decoration: underline;
+}
