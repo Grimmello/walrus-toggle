@@ -1,10 +1,48 @@
 #walrus-showing {
   display: none;
 }
+.panel{
+  display: none;
+}
 .clickable {
   cursor:pointer;
   color: blue;
 }
 .clickable:hover {
+  text-decoration: underline;
+}
+.panel .walrus-info {
+  float:left;
+  margin-left: 2%;
+  border-radius: 12px;
+  font-style: italic;
+  background-color: lightgray;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.clickable2 {
+  cursor:pointer;
+  color: blue;
+}
+.clickable2:hover {
+  text-decoration: underline;
+}
+.clickable3 {
+  cursor:pointer;
+  color: blue;
+}
+.clickable3:hover {
+  text-decoration: underline;
+}
+.sportpic {
+  display: none;
+}
+.clickable4 {
+  cursor:pointer;
+  color: blue;
+}
+.clickable4:hover {
   text-decoration: underline;
 }
